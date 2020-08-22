@@ -1,0 +1,31 @@
+<html>
+<head><title>BUG</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="index.js" defer></script>
+</head>
+
+<body>
+
+  <div id="div1">
+    <label>Color:</label>
+    <input  id="color" type="color" />
+
+    <label>Font:</label>
+    <select id="font">
+      <option value="Verdanda">Verdana</option>
+      <option value="Arial">Arial</option>
+      <option value="Courier">Courier</option>
+      <option value="Roboto">Roboto</option>
+      <option value="Candara">Candara</option>
+    </select>
+
+    <label>Size:</label>
+    <div>
+      10<input id="size" type="range" min="10" max="50" step="5"/>50
+    </div>
+  </div>
+
+  <h1>Outcome:</h1>
+  <input id="output" type="text" size="40" readonly />
+</body>
+</html>

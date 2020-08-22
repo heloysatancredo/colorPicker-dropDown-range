@@ -1,0 +1,30 @@
+body{
+  background: #eee;
+}
+#div1 {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 100px 280px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Helvetica neue, roboto;
+  border: 2px solid brown;
+}
+
+h1 , label, p{
+  color: rgb(22, 64, 107);
+  font-weight: 300;
+  font-family: Tahoma;
+  margin:30px;
+}
+
+input[type="text"] {
+  background-color: #ddd;
+  text-transform:capitalize;
+  font-weight: 300;
+  margin:30px;
+}
+
+
+
